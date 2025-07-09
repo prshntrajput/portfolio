@@ -109,7 +109,7 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 gap-10">
             <div className="text-gray-300 space-y-4">
               <p>
-                I’m a Full Stack Developer with over 3 years of experience building fast, responsive, and modern web apps.
+                I’m a Full Stack Developer ,building fast, responsive, and modern web apps.
               </p>
               <p>
                 I love working with technologies like React, Next.js, Node, and databases like MongoDB and PostgreSQL.
