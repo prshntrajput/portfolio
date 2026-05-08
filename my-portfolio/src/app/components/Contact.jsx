@@ -50,7 +50,7 @@ export default function Contact() {
               { label: "Full-time roles",       status: "open",       color: "#34d399" },
               { label: "Freelance projects",     status: "open",       color: "#34d399" },
               { label: "Open source collab",     status: "open",       color: "#34d399" },
-              { label: "Currently at",           status: "HashForGamers", color: "#fbbf24" },
+              
             ].map(({ label, status, color }) => (
               <div key={label} className="flex items-center justify-between py-2.5 border-b border-border last:border-0">
                 <span className="text-sm text-muted-foreground">{label}</span>
