@@ -2,6 +2,21 @@ export const NAV_ITEMS = ["home", "about", "experience", "skills", "projects", "
 
 export const EXPERIENCE = [
   {
+    role: "Professional Engineering Intern",
+    company: "DHAN",
+    fullName: "Raise Financial Services",
+    location: "Mumbai",
+    period: "Aug 2026 – Oct 2026",
+    bullets: [
+      "Built backend services in Go (Fiber) from scratch. Split the system into separate services for login, workspace, café orders and admin, using PostgreSQL, Redis and RabbitMQ.",
+      "Built seat allocation with database row locking and Redis distributed locks on pass purchases, so traders checking in at the same time never get the same seat and double-clicks never create duplicate purchases.",
+      "Created the high-level system design (HLD) and improved it after reviews with seniors. Planned it to grow from 5–10 branches to about 50 across India.",
+      "Built the frontend of the RM (Relationship Manager) dashboard using React, TypeScript, Redux Toolkit and Tailwind CSS.",
+      "Worked closely with product managers and designers to turn business needs into features. Used AI coding tools to work faster.",
+    ],
+    tech: ["Go", "Fiber", "PostgreSQL", "Redis", "RabbitMQ", "React", "TypeScript", "Redux Toolkit", "Tailwind CSS"],
+  },
+  {
     role: "SDE Intern",
     company: "HashForGamers",
     fullName: "Hash for Gamers Pvt. Ltd.",

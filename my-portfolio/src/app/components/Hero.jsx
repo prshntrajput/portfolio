@@ -6,7 +6,7 @@ import { GitHubIcon } from "./shared"
 
 const STATS = [
   { value: "3+", label: "shipped projects" },
-  { value: "1",  label: "internship" },
+  { value: "2",  label: "internship" },
   { value: "7+", label: "tech stacks" },
   { value: "2+", label: "years coding" },
 ]
